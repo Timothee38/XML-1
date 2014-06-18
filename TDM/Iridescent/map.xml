@@ -126,12 +126,12 @@
 	</spawns>
 
 	<regions>
-			<apply kit="nullinv">
-				<cuboid name="null-inv" min="-oo,-oo,-oo" max="oo,37,oo"/>
-			</apply>
-			<apply block="deny-all">
-				<cuboid name="playable" min="-296,37,-198" max="-193,oo,-301"/>
-			</apply>
+		<apply kit="nullinv">
+			<cuboid name="null-inv" min="-oo,-oo,-oo" max="oo,37,oo"/>
+		</apply>
+		<apply block="deny-all">
+			<cuboid name="playable" min="-296,37,-198" max="-193,oo,-301"/>
+		</apply>
 	</regions>
 
 	<playable>
@@ -139,7 +139,7 @@
 	</playable>
 
 	<portals>
-		<portal y="-16">
+		<portal y="-128">
 			<region name="null-inv"/>
 		</portal>
 	</portals>
