@@ -12,6 +12,10 @@
 		<contributor contribution="XML">TheLuxeHD</contributor>
 		<contributor contribution="XML Revison">ExaBerries</contributor>
 	</contributors>
+	
+	<rules>
+        <rule></rule>
+    </rules>
 
 	<teams>
 		<team color="blue" max="20" max-overfill="25">Blue Team</team>
@@ -130,7 +134,26 @@
 			<cuboid name="null-inv" min="-oo,-oo,-oo" max="oo,37,oo"/>
 		</apply>
 		<apply block="deny-all">
-			<cuboid name="playable" min="-296,37,-198" max="-193,oo,-301"/>
+			<rectangle name="playable" min="-oo,-oo" max="oo,oo"/>
+		</apply>
+		<!--Magenta-->
+		<apply velocity="@-2,1,0.0">
+		    <cuboid min="-235,57,-228" max="-231,59,-233" />
+		</apply>
+		<apply velocity="@0.0,1.4,-1">
+		    <cuboid min="-211,41,-215" max="-206,43,-210" />
+		</apply>
+		<apply velocity="@0.6,1.2,0.0">
+		    <cuboid min="-233,41,-220" max="-237,43,-216" />
+		</apply>
+		<apply velocity="@-4,1.4,0.0">
+		    <cuboid min="-218,41,-231" max="-213,43,-226" />
+		</apply>
+		<apply velocity="@0.4,1.2,0.0">
+		    <cuboid min="-206,57,-237" max="-211,59,-232" />
+		</apply>
+		<apply velocity="@0.0,1.8,0.2">
+		    <cuboid min="-212,41,-245" max="-216,43,-241" />
 		</apply>
 	</regions>
 
